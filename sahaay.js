@@ -15,7 +15,7 @@
           m='0'+m;
          while(s.length<2)
           s='0'+s;
-        time=h+':'+m+':'+s+' AM';
+        time=h+':'+m+':'+s+' pM';
         console.log(s);
         document.getElementById('sahay1').innerHTML=time;
       },1000);
